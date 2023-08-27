@@ -1,0 +1,112 @@
+/* Загальні стилі для всіх елементів */
+body {
+    font-family: 'Belanosima', sans-serif, 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Стилі для заголовків */
+p {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    text-transform: uppercase;
+    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+    margin: 0;
+    width:100%;
+} 
+
+
+
+h2 {
+    color: #0099cc;
+}
+
+/* Стилі для навігаційного меню */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* Стилі для розділів */
+section {
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Стилі для заголовку (header) */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 27px;
+    flex-shrink: 0;
+    align-items: center;
+    background-color: #000000;
+}
+
+/* Стилі для навігації (nav) */
+.nav>learn {
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #000000;
+    align-items: center;
+    margin: 50%;
+
+}
+
+.nav__link {
+    color: #fdfdfd;
+    opacity: 0.75;
+    
+    margin-bottom: 40;
+    align-items: center;
+}
+
+
+.nav__link:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    color: #f2ff00;
+}
+
+.nav__item {
+    margin-right: 20px;
+}
+
+.hero_content {
+ display: block;
+ align-items: center;
+ background-color: #000;
+ color: white;
+ margin:0;
+ padding: auto;
+
+}
+
+h3 {
+    display: flex;
+    margin: 0;
+    padding: auto;
+}

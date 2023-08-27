@@ -1,0 +1,65 @@
+body {font-family:"preconnect";
+    font-size: 30px;
+    
+}
+
+/* Стилі для заголовків */
+p { text-align: center;
+    background: green;
+    margin: 0;
+    color: aqua;
+    font-family:"preconnect";
+}
+
+
+    
+
+/* Стилі для навігаційного меню */
+nav ul {
+    
+}
+
+nav li 
+
+nav a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* Стилі для розділів */
+section {
+    margin-bottom: 20px;
+}
+.content {
+    width: 100%;
+    margin: 0 auto;
+} 
+/*=======================  header  ========================*/
+           
+.header {
+    
+    
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 1140px;
+margin-top: 250px;
+    height: 27px;
+    flex-shrink: 0
+    border:
+}
+
+/*=======================  nav  ========================*/
+.nav {
+    font-size: 35px;
+    font-variant: 700px;
+
+}
+
+.nav___link {
+    color: #fff;
+
+}

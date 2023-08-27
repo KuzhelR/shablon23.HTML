@@ -1,0 +1,43 @@
+.background-image-container {
+    position: relative;
+    background-image: url('c:\Users\IT-Roman\Downloads\imege23.png');
+    contain: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay-layer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+Цей код створює контейнер з фоновою фотографією та накладеними на неї слоями. Внутрішній div .overlay-layer розміщується в центрі контейнера, а його текст знаходиться в середині.
+
+Зверніть увагу, що ви маєте замінити 'шлях_до_вашої_фотографії.jpg' на реальний шлях до вашої фотографії.
+
+Якщо ви маєте конкретні питання або проблеми з вашим кодом, будь ласка, надайте більше деталей, і я допоможу вам розібратися.
+
+
+
+
+
+
+     
+  
+
+     
+
+
+
+
+
+    
+ 
+    
+    

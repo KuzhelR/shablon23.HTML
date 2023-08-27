@@ -1,0 +1,209 @@
+body {
+     /* Загальні стилі для всіх елементів */
+    display: block;
+    font-family: 'Belanosima', sans-serif, 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    width: 1732 px;
+    max-width: 100%;
+   
+}
+
+.text-center { 
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    width:100%;
+    margin:0 auto;
+   padding-top: 8.5px;
+}
+<img src="c:\Users\IT-Roman\Downloads\imege23.png" alt="">
+       
+.container {
+    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    flex-shrink: 0;
+    height: 37px;
+    flex-shrink: 0;
+    display: flex;
+   }
+
+
+
+   .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20;
+    height: 100px;
+    background-color: #000000;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+
+.header__logo {
+    margin-left: 11.4%;
+}
+ 
+.nav__link {
+    color: #848895;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px; 
+    padding: 0px 24px 0px 32px;
+    text-decoration: none;
+    
+}
+
+.nav {
+    margin: 20px 100px 20px 200px; /*задаємо відступи де спочатку йде відступ звурху, потім відступ знизу, потім справа, потім зліва*/
+    width: 560px; /*задаємо ширину для блоку в якому находиться наше навігаційне меню*/
+    display: flex;
+    justify-content: center; /* Центрування елементів по горизонталі */
+    align-items: center; /* Центрування елементів по вертикалі */
+
+}
+
+.hero_content {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #000000;
+    padding: 182px;
+    height: 464px;
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px 0px 0px 0px;
+    line-height: 50px;
+
+}
+
+
+h3 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Helvetica;
+    font-size: 70px;
+    font-weight: normal;
+    letter-spacing: 0.68px;
+    line-height: 7.6px
+}
+
+p{
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica;
+   
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text {
+    line-height: 2.3px;
+    margin-top: 3px;
+    font-size: 21px;
+}
+
+.p1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    text-transform: uppercase; 
+    line-height: 20px;
+    word-wrap: break-word"
+}
+
+.content-start {
+    width: 245px;
+    height: 52px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: linear-gradient(99deg, #8C01FA 0%, black 100%); 
+    border-radius: 50px;
+    overflow: hidden;
+    border: 3px black solid;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    gap: 10px;
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+.content-read {
+    opacity: 1.7s;
+    color: #0fd616;
+    display: inline-flex;
+    padding: 16px 66px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 36px;
+    border: 1px solid #FFF;
+    background: #000;
+    margin-top: 60px;
+}
+
+p3 {
+    color: #618ADC;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 112% */
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    align-items: center;
+   
+}
+
+.client {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 32.594px;
+    background-color: #000000;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 1px;
+}
+
+.list {
+    background: var(--s-gradient-2, linear-gradient(120deg, #0047FF 0%, #00eeff 100%));
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    flex-shrink: 0;
+    height: 37px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.h4 {
+    text-align: center;
+    justify-content: space-around; 
+    font-family: 'Roboto Condensed';
+    
+
+}
+
+
+
+
